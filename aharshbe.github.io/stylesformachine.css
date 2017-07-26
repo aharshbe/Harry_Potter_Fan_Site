@@ -1,0 +1,98 @@
+  .jSlots-wrapper {
+      position: relative;
+      overflow: hidden;
+      height: 20px;
+      display: grid;
+      border: 1px solid #999;
+
+    }
+
+    .slot {
+      float: center;
+    }
+    .logo {
+      margin-left: 1px;
+      margin-right: 280px;
+    }
+
+    .machine {
+      background-position: center;
+      width: 600px;
+      margin-top: 75px;
+      margin-left: 220px;
+      background-image: url('http://img1.picmix.com/output/stamp/normal/8/1/4/7/277418_d3ccb.gif');
+      background-size: 350px;
+      height: 350px;
+      width: 350px;
+      margin-bottom: 100px;
+
+    }
+
+    #some-element {
+      border: 1px solid #ccc;
+      display: none;
+      font-size: 18px;
+      margin-top: 10px;
+      padding: 5px;
+      color: red;
+      margin-bottom: 10px;
+    }
+
+    #some-div:hover #some-element {
+      display: block;
+    }
+
+    .machine:hover #some-element{
+      display: block;
+    }
+
+    .fancy .jSlots-wrapper {
+
+      float: left;
+      width: 300px;
+      height: 300px;
+      margin: 25px;
+      border: 2px solid #000000;
+
+    }
+
+    .fancy .slot li {
+      /*width: auto;*/
+      line-height: 300px;
+      text-align: center;
+      color: 	#0000;
+      font-family: sans-serif;
+      border-left: 1px solid #999;  
+      
+    }
+
+    .fancy .slot:first-child li {
+      border-left: none;
+    }
+
+    .fancy .slot li:nth-child(7) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(6) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(5) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(4) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(3) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(2) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(1),
+    .fancy .slot li:nth-child(8) {
+      background-color: #0000;
+    }
+
+    .fancy .slot li span {
+      display: inline-block;
+    }

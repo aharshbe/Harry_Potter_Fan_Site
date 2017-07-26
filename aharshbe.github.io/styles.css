@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Harry P';
+    src: url('hp.ttf');
+}
+
+footer {
+  font-size: 20px;
+  color: white;
+}
+
+html, aside {
+  font-family: 'Harry P' ;
+  color: #FFD700;
+  background-image: url("http://az616578.vo.msecnd.net/files/2016/08/01/6360561629353435571471412419_The_Leaving_Feast_-_B4C37M1.png");
+
+}
+
+a {
+
+  margin-bottom: 10px;
+}
+
+body {
+
+	display: flex;
+	flex-direction: column;
+	font-family: 'Harry P' ;
+
+}
+
+main {
+
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	font-family: 'Harry P' ;
+}
+
+
+article {
+
+	overflow-y: auto;
+	flex: 2;
+	font-family: 'Harry P' ;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Harry P' ;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Harry P' ;
+  color: #a17f1a;
+
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Harry P' ;
+  color: white;
+
+}
+
+aside {
+	overflow-y: auto;
+	flex: 1;
+	font-family: 'Harry P' ;
+  color: white;
+}
+
+ div.right {
+
+    color: white;
+  
+ }
+
+ ul {
+  font-family: 'Harry P' ;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+ }
+
+
+
+   div.page_header {
+      height: 99px;
+      width: 100%;
+      background-image: url("http://homo-urbanicus.com/harrypotterrecs/images/Harry%20Potter%20Theme/Hogwarts%20header.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: white;
+      margin-bottom: 30px;
+      
+
+    }
+
+    div.page_header span {
+      margin: 15px 0px 0px 50px;
+      font-size: 45px;
+      font-weight: bold;
+      
+    }
+
+    div.page_header img {
+      margin: 3px 0px 0px 40px;
+      border: 0px 0px 0px;
+
+    }
+
+   /* iframe[id^='twitter-widget-0'] {
+        height:570px !important;
+        margin-bottom:10px !important;
+        margin-left: 35px;
+        width: 600px !important;
+        
+      }*/
+
+      iframe[id^='proprofs'] {
+        height:570px !important;
+        margin-bottom:10px !important;
+        width:680px !important;
+      }

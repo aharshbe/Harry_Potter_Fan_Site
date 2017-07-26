@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Harry P';
+    src: url('hp.ttf');
+}
+
+footer {
+  font-size: 20px;
+  color: white;
+}
+
+html, aside {
+  font-family: 'Harry P' ;
+  color: #FFD700;
+  background-image: url("http://az616578.vo.msecnd.net/files/2016/08/01/6360561629353435571471412419_The_Leaving_Feast_-_B4C37M1.png");
+
+}
+
+a {
+
+  margin-bottom: 10px;
+}
+
+body {
+
+	display: flex;
+	flex-direction: column;
+	font-family: 'Harry P' ;
+
+}
+
+main {
+
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	font-family: 'Harry P' ;
+}
+
+
+article {
+
+	overflow-y: auto;
+	flex: 2;
+	font-family: 'Harry P' ;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Harry P' ;
+  color: white;
+
+}
+
+aside {
+	overflow-y: auto;
+	flex: 1;
+	font-family: 'Harry P' ;
+  color: white;
+}
+
+ div {
+
+
+  
+ }
+
+ ul {
+  font-family: 'Harry P' ;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+ }
+
+
+
+   div.page_header {
+      height: 99px;
+      width: 100%;
+      background-image: url("http://homo-urbanicus.com/harrypotterrecs/images/Harry%20Potter%20Theme/Hogwarts%20header.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: white;
+      margin-bottom: 30px;
+      
+
+    }
+
+    div.page_header span {
+      margin: 15px 0px 0px 50px;
+      font-size: 45px;
+      font-weight: bold;
+      
+    }
+
+    div.page_header img {
+      margin: 3px 0px 0px 40px;
+      border: 0px 0px 0px;
+
+    }
+
+   /* iframe[id^='twitter-widget-0'] {
+        height:570px !important;
+        margin-bottom:10px !important;
+        margin-left: 35px;
+        width: 600px !important;
+        
+      }*/
+
+      iframe[id^='proprofs'] {
+        height:570px !important;
+        margin-bottom:10px !important;
+        width:680px !important;
+      }
+
+     .jSlots-wrapper {
+      position: relative;
+      overflow: hidden;
+      height: 20px;
+      display: grid;
+      border: 1px solid #999;
+
+    }
+
+
+   
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .slot {
+      float: center;
+      
+
+    }
+    .logo {
+      margin-left: 1px;
+      margin-right: 280px;
+    }
+
+    .machine {
+      background-position: center;
+      width: 600px;
+      margin-top: 75px;
+      margin-left: 160px;
+      background-image: url('http://img1.picmix.com/output/stamp/normal/8/1/4/7/277418_d3ccb.gif');
+      background-size: 350px;
+      height: 350px;
+      width: 350px;
+      
+
+
+
+    }
+
+    #some-element {
+      border: 1px solid #ccc;
+      display: none;
+      font-size: 18px;
+      margin-top: 10px;
+      padding: 5px;
+      color: red;
+      margin-bottom: 10px;
+    }
+
+    #some-div:hover #some-element {
+      display: block;
+    }
+
+    .machine:hover #some-element{
+      display: block;
+    }
+
+    .fancy .jSlots-wrapper {
+
+      float: left;
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      border: 1px solid #000000;
+
+    }
+
+
+
+    .fancy .slot li {
+      /*width: auto;*/
+      line-height: 370px;
+      color:  #0000; 
+
+      
+    }
+
+
+    .fancy .slot:first-child li {
+      border-left: none;
+    }
+
+    .fancy .slot li:nth-child(7) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(6) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(5) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(4) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(3) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(2) {
+      background-color: #0000;
+    }
+    .fancy .slot li:nth-child(1),
+    .fancy .slot li:nth-child(8) {
+      background-color: #0000;
+    }
+
+    .fancy .slot li span {
+      display: inline-block;
+      list-style-type: none;
+
+     
+
+    }
